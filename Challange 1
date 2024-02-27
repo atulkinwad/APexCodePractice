@@ -1,0 +1,13 @@
+List <String> ApexPosts=new List<String>();
+ApexPosts.add('Demystifying Apex Collection');
+ApexPosts.add('Datatypes and variables in Apex');
+
+List <String> LightningPosts=new List<String>();
+LightningPosts.add('Events in Aura Framework');
+LightningPosts.add('Developing reusable componants');
+
+Map<String,List<String>> M1= new Map<String,List<String>>();
+M1.put('Apex',ApexPosts);
+M1.put('Lightning',LightningPosts);
+
+System.debug(M1);
