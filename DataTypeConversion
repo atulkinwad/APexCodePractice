@@ -1,0 +1,7 @@
+// 	DataType Conversion
+	String Physics='60';
+	String Maths='50';
+	Integer Total=Integer.valueOf(Physics)+Integer.valueOf(Maths);
+	System.debug('IntegerTotal: '+Total);
+	String StringTotal=String.valueOf(Integer.valueOf(Physics)+Integer.valueOf(Maths));
+	System.debug('StringTotal: '+StringTotal);
